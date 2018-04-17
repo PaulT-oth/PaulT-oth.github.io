@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
 <head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
+    <title>Sequence Home</title>
 </head>
+
 <body>
-    <a href="views/nextfile.html">
-        <h1>This is Your New Home!</h1>
-    </a>
+    <center><h1>Why Is This So Difficult</h1></center>
+    <center>
+        <form action="views/nextfile.html" method="POST" id="seqform">
+            Sequence Name: <input type="text" name="sequenceID">
+            <br><br>
+            <textarea rows="5" cols="70" name="sequence" form="seqform">Paste Sequence Here</textarea>
+            <br><br>
+            <input type="submit">
+        </form>
+    </center>
+    <br><br>
+    <center>
+        <input type="button" onclick="alert('ok progress')" value="suss">
+    </center>
 </body>
 </html>
